@@ -1616,7 +1616,6 @@ input, select, textarea {
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 3em;
 	}
 
 	section > :last-child,
@@ -1698,13 +1697,41 @@ input, select, textarea {
 		max-width: 24em;
 	}
 
+
+	.button2 {
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+		background-color: #fdfefe;
+		border-radius: 6px;
+		box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+		color: #2E2E2E !important;
+		display: block;
+		font-size: 26px;
+		height: 48px;
+		line-height: 48px;
+		text-align: center;
+		outline: 0;
+		overflow: hidden;
+		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+		width: 200px;
+	}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
+			/* background-color: inherit; */
 			background-color: #43bff0;
 			color: #fff !important;
+		}
+
+		.button2:hover {
+			/* background-color: inherit; */
+			/* background-color: #43bff0; */
+			color: #2E2E2E !important;
 		}
 
 		input[type="button"]:active,
@@ -1794,13 +1821,19 @@ input, select, textarea {
 				-ms-transition: top .2s ease-in-out;
 				transition: top .2s ease-in-out;
 				display: block;
-				width: 48px;
 				height: 48px;
 				border-radius: 6px;
 				top: 0;
 				position: relative;
+				width: 48px;
 			}
 
+
+		ul.social li a:link {
+			text-decoration: none;
+
+
+		}
 				ul.social li a:before {
 					/* background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -1824,6 +1857,43 @@ input, select, textarea {
 					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
 				}
+
+				ul.social li b {
+					-moz-transition: top .2s ease-in-out;
+					-webkit-transition: top .2s ease-in-out;
+					-ms-transition: top .2s ease-in-out;
+					transition: top .2s ease-in-out;
+					display: block;
+					width: 170px;
+					height: 48px;
+					border-radius: 6px;
+					top: 0;
+					position: relative;
+				}
+
+					ul.social li b:before {
+						/* background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+						background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+						background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+						background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); */
+						-moz-transition: background-color .2s ease-in-out;
+						-webkit-transition: background-color .2s ease-in-out;
+						-ms-transition: background-color .2s ease-in-out;
+						transition: background-color .2s ease-in-out;
+						background-color: #fdfefe;
+						border-radius: 6px;
+						box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+						color: #2E2E2E !important;
+						display: block;
+						font-size: 26px;
+						height: 48px;
+						line-height: 48px;
+						text-align: center;
+						outline: 0;
+						overflow: hidden;
+						text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+						width: 180px;
+					}
 
 				ul.social li a.medium-m {
 					background-color: #fdfefe;
@@ -1891,11 +1961,20 @@ input, select, textarea {
 
 				ul.social li a:hover {
 					top: -5px;
+					color: #fff;
 				}
 
 					ul.social li a:hover:before {
 						background-color: transparent;
 					}
+
+				ul.social li b:hover {
+					top: -5px;
+				}
+
+				ul.social li b:hover:before {
+					background-color: transparent;
+				}
 
 /* Actions */
 
