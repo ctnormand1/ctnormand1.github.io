@@ -1690,9 +1690,9 @@ input, select, textarea {
 		border-radius: 8px;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #fdfefe;
-		padding: 0.5em 2.0em 0.5em 2.0em;
+		padding: 0.7em 2.0em 0em 2.0em;
 		font-size: 1em;
 		max-width: 24em;
 		height: 50px;
@@ -1725,8 +1725,9 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			/* background-color: inherit; */
-			background-color: #F4F6F7;
+			background-color: #cecece;
 			color: #2E2E2E !important;
+			/* top: -5px; */
 		}
 
 		.button2:hover {
@@ -1740,7 +1741,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #F4F6F7;
+			background-color: #4B4B4B;
 			top: 1px;
 		}
 
